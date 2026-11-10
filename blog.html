@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>블로그 레이아웃 구성</title>
@@ -30,25 +31,25 @@
                 </li>
 
                 <li class="outer-menu-item">
-                    <a href="#" class="menu-title">오늘날씨</a>
+                    <a href="#weather" class="menu-title">오늘날씨</a>
                 </li>
 
                 <li class="outer-menu-item">
-                    <a href="#" class="menu-title">일과</a>
+                    <a href="#routine" class="menu-title">일과</a>
 
                     <!-- 하위 메뉴 -->
                     <ul class="inner-menu">
-                        <li><a href="#">오전일과</a></li>
-                        <li><a href="#">오후일과</a></li>
+                        <li><a href="#morning">오전일과</a></li>
+                        <li><a href="#afternoon">오후일과</a></li>
                     </ul>
                 </li>
 
                 <li class="outer-menu-item">
-                    <a href="#" class="menu-title">오늘하루후기</a>
+                    <a href="#review" class="menu-title">오늘하루후기</a>
                 </li>
 
                 <li class="outer-menu-item">
-                    <a href="#" class="menu-title">아무거나</a>
+                    <a href="#anything" class="menu-title">아무거나</a>
                 </li>
 
                 <!-- 검색 양식 -->
@@ -74,7 +75,7 @@
                 </div>
 
                 <!-- 첫 번째 게시글 -->
-                <article>
+                <article id="weather">
                     <h2>오늘날씨</h2>
                     <p>⛅흐렸다가 맑았다가 함(🌞해가 뜨기 귀찮았나봄🌥️)</p>
                     <p>☔비는 안옴🌧️</p>
@@ -82,13 +83,13 @@
                 </article>
 
                 <!-- 두 번째 게시글 -->
-                <article>
+                <article id="routine">
                     <h2>일과</h2>
 
-                    <h3>오전일과</h3>
+                    <h3 id="morning">오전일과</h3>
                     <p>- 학교</p>
 
-                    <h3>오후일과</h3>
+                    <h3 id="afternoon">오후일과</h3>
                     <p>- 동네 귀가</p>
                     <p>- 병원 방문(독감주사 맞으러갔다가 너무 늦게 도착해서 접종 실패.)</p>
                     <p>- 친구 접선 -> 🍽️밥!!</p>
@@ -97,7 +98,7 @@
                 </article>
 
                 <!-- 세 번째 게시글 -->
-                <article>
+                <article id="review">
                     <h2>오늘 하루 후기</h2>
                     <p>학교에 있는 시간보다 이동시간이 더 길었음</p>
                     <p>그래서 뭔가 억울했음</p>
@@ -106,7 +107,7 @@
                 </article>
 
                 <!-- 네 번째 게시글 -->
-                <article>
+                <article id="anything">
                     <h2>아무거나</h2>
                     <p>마음대로 자유~롭게 글쓰는 공간</p>
                     <p>Like 낙서장 메모장</p>
@@ -120,10 +121,10 @@
                 <div class="aside-list">
                     <h3>카테고리</h3>
                     <ul>
-                        <li><a href="#">오늘날씨</a></li>
-                        <li><a href="#">일과</a></li>
-                        <li><a href="#">오늘하루후기</a></li>
-                        <li><a href="#">아무거나</a></li>
+                        <li><a href="#weather">오늘날씨</a></li>
+                        <li><a href="#routine">일과</a></li>
+                        <li><a href="#review">오늘하루후기</a></li>
+                        <li><a href="#anything">아무거나</a></li>
                     </ul>
                 </div>
 
