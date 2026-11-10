@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "맑은 고딕";
 }
@@ -238,6 +242,13 @@ article h2 {
 
 article p {
     line-height: 1.6;
+}
+
+/* 이동 위치 조정 */
+article,
+article h3,
+article p {
+    scroll-margin-top: 10px;
 }
 
 /* 10. 본문 측면 */
